@@ -1,0 +1,20 @@
+
+/* .correlatedSearchBtn {
+	float: right;
+	font-size: 12px;
+}
+ */
+
+.correlationSearch {
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.sample {
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 6px;
+	background-image: url('http://lorempixel.com/640/480');
+}

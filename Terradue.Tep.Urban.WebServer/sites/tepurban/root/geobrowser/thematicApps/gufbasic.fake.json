@@ -1,0 +1,124 @@
+{
+    "features": [
+        {
+            "id": "https://catalog.terradue.com:443//eboissier/search?format=json&uid=gufbasic",
+            "properties": {
+                "authors": [
+                    {
+                        "email": "",
+                        "icon": "http://eomag.eu/images/231.jpg",
+                        "name": "Brockmann Consult",
+                        "uri": "http://www.brockmann-consult.de"
+                    }
+                ],
+                "categories": [
+                    {
+                        "@label": "gufbasic",
+                        "@scheme": null,
+                        "@term": "gufbasic"
+                    },
+                    {
+                        "@label": "App",
+                        "@scheme": null,
+                        "@term": "thematicapp"
+                    }
+                ],
+				"content": {
+					"src": "/geobrowser/gufbasic.html"
+				},
+                "date": "2009-01-23T09:08:56.0000000Z/2020-01-23T09:14:08.0000000Z",
+                "identifier": "gufbasic",
+                "links": [
+                    {
+                        "@href": "https://store.terradue.com/api/urban-apps/images/guf.png",
+                        "@rel": "icon",
+                        "@type": "image/png"
+                    },
+                    {
+                        "@href": "https://catalog.terradue.com//eboissier/search?format=json&uid=gufbasic",
+                        "@rel": "self",
+                        "@title": "Reference link",
+                        "@type": "application/json"
+                    }
+                ],
+                "offering": [
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/basemaps",
+                        "styleSet": {
+                            "@default": "true",
+                            "abstract": "Light Map",
+                            "content": "tepgeohazards.l6md4p2l",
+                            "name": "Light Map",
+                            "type": "mapbox"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/mapfeatures",
+                        "styleSet": [
+                            {
+                                "@default": "true",
+                                "abstract": "GUF2012-12m (for scientific use only)",
+                                "attribution": "© DLR - for licensing and data orders please <a href='http://www.dlr.de/guf' target='_blank'>click here</a>",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/gwc/service/wms",
+                                    "@type": "image/png"
+                                },
+                                "name": "eoc:GUF_04",
+                                "title": "GUF2012-12m (for scientific use only)",
+                                "type": "wms",
+                                "opacity": "0.5"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "GUF2012-84m (for non-profit use only)",
+                                "attribution": "© DLR - for licensing and data orders please <a href='http://www.dlr.de/guf' target='_blank'>click here</a>",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/gwc/service/wms",
+                                    "@type": "image/png"
+                                },
+                                "name": "eoc:GUF_28",
+                                "title": "GUF2012-84m (for non-profit use only)",
+                                "type": "wms"
+                            }
+                        ]
+                    }
+                ],
+                "published": "2016-11-16T15:10:02Z",
+                "summary": "Basic version of the Global Urban Footprint application.",
+                "title": "Global Urban Footprint - Basic",
+                "updated": "2016-11-16T15:31:49Z",
+                "box": "-22 -64 71 144"
+            },
+            "type": "Feature"
+        }
+    ],
+    "properties": {
+        "box": "90 -180 -90 180",
+        "categories": [
+            {
+                "@label": "Thematic Application",
+                "@scheme": "http://www.terradue.com/feed",
+                "@term": "thematicapplication"
+            }
+        ],
+        "links": [
+            {
+                "@href": "https://urban-tep.eo.esa.int/t2api/apps/search?q=guf&format=atom",
+                "@rel": "self",
+                "@title": "Reference link",
+                "@type": "application/atom+xml"
+            },
+            {
+                "@href": "https://urban-tep.eo.esa.int/t2api/apps/description",
+                "@rel": "search",
+                "@title": "OpenSearch Description link",
+                "@type": "application/opensearchdescription+xml"
+            }
+        ],
+        "publisher": "Terradue",
+        "title": "urban thematic applications search results",
+        "totalResults": "0",
+        "updated": "2016-03-08T10:26:04Z"
+    },
+    "type": "FeatureCollection"
+}

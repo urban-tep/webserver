@@ -1,0 +1,52 @@
+.charterActivation>.icon {
+	float: left;
+	margin-right: 10px;
+	padding: 0px 1px;
+	
+	border: 1px solid gray;
+	border-radius: 5px;
+	font-size: 10px;
+	text-align: center;
+	
+	background-color: #f7f7f7;
+}
+
+.charterActivation>.icon>img {
+	margin-top: -10px;
+}
+
+.charterActivation>.date {
+	margin: 2px 0px;
+	color: gray;
+	font-size: 13px;
+	line-height: 17px;
+}
+
+.charterActivation>.link {
+  margin: 4px 0px;
+  display: inline-block;
+  width: 330px;
+  height: 20px;
+  vertical-align: top;
+}
+
+/* .featureDescriptor h1 {
+	color: rgb(147, 85, 36);
+	border-bottom: 1px solid gray;
+	margin-bottom: 12px;
+	line-height: 20px;
+	vertical-align: bottom;
+}
+
+.dl-horizontal dt{
+    text-align: left;
+    margin-bottom: 1em;
+    width: auto;
+    padding-right: 1em;
+}
+
+.dl-horizontal dd{
+    margin-left: 0;
+    margin-bottom: 1em;
+}
+ */

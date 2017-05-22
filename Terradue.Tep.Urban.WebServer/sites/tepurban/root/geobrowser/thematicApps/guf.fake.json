@@ -1,0 +1,250 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -180.0,
+                            90.0
+                        ],
+                        [
+                            180.0,
+                            90.0
+                        ],
+                        [
+                            180.0,
+                            -90.0
+                        ],
+                        [
+                            -180.0,
+                            -90.0
+                        ],
+                        [
+                            -180.0,
+                            90.0
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "id": "https://urban-tep.eo.esa.int/t2api/apps/search?uid=guf&format=atom",
+            "properties": {
+                "authors": [
+                    {
+                        "email": "urban-tep@esa.int",
+                        "name": "U-TEP Content Authority",
+                        "uri": "https://urban-tep.eo.esa.int/t2api/users/urban-tep"
+                    }
+                ],
+                "box": "25.000000277941577 -35.00000038911821 55.00000061147148 40.00000044470653",
+                "content": {
+                    "@href": "/geobrowser/thematicAppContent.html"
+                },
+                "date": "2009-01-23T09:08:56.000Z/2016-01-23T09:14:08.000Z",
+                "identifier": "https://urban-tep.eo.esa.int/t2api/apps/search?uid=guf",
+                "links": [
+                    {
+                        "@href": "https://urban-tep.eo.esa.int/t2api/apps/search?uid=guf&format=atom",
+                        "@rel": "self",
+                        "@title": "Reference link",
+                        "@type": "application/atom+xml"
+                    },
+                    {
+                        "@href": "https://urban-tep.eo.esa.int/t2api/apps/description",
+                        "@rel": "search",
+                        "@title": "OpenSearch Description link",
+                        "@type": "application/opensearchdescription+xml"
+                    }
+                ],
+                "offering": [
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/datacontext",
+                        "styleSet": [
+                            {
+                                "abstract": "Global Urban Footprint",
+                                "default": "true",
+                                "legendURL": {
+                                    "@href": "http://www.terradue.com/images/logo-t2.png",
+                                    "@type": "image/png"
+                                },
+                                "name": "GUF",
+                                "title": "Global Urban Footprint"
+                            }
+                        ]
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/opensearch",
+                        "operation": [
+                            {
+                                "@code": "DescribeDataset",
+                                "@href": "https://data2.terradue.com/catalogue/urban-guf-europe/gtfeature/description",
+                                "@method": "GET",
+                                "@type": "application/opensearchdescription+xml",
+                                "datacontext": "GUF"
+                            },
+                            {
+                                "@code": "DescribeDataset",
+                                "@href": "https://data2.terradue.com/eop/va4-terrasar-x/dataset/description",
+                                "@method": "GET",
+                                "@type": "application/opensearchdescription+xml",
+                                "datacontext": "EO Data/TerraSAR-X"
+                            }
+                        ]
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/opensearchtable"
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/datapackage",
+                        "operation": [
+                            {
+                                "@code": "Search",
+                                "@href": "/t2api/data/package/search?format=json",
+                                "@method": "GET",
+                                "@type": "application/json"
+                            }
+                        ]
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/featuresbasket",
+                        "operation": {
+                                "@code": "Description",
+                                "@href": "/t2api/data/package/default/description",
+                                "@method": "GET",
+                                "@type": "application/json"
+                        }                        
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/basemaps",
+                        "styleSet": [
+                            {
+                                "abstract": "Default map",
+                                "content": "tepgeohazards.l6mdm2gn",
+                                "name": "Default",
+                                "type": "mapbox"
+                            },
+                            {
+                                "abstract": "Light Map",
+                                "content": "tepgeohazards.l6md4p2l",
+                                "name": "Light Map",
+                                "type": "mapbox",
+                                "default": "true"
+                            },
+                            {
+                                "abstract": "Natural Earth",
+                                "content": "tepgeohazards.l6md2364",
+                                "name": "Natural Earth",
+                                "type": "mapbox"
+                            },
+                            {
+                                "abstract": "Dark Map",
+                                "content": "tepgeohazards.l6mdoh89",
+                                "name": "Dark Map",
+                                "type": "mapbox"
+                            },
+                            {
+                                "abstract": "Google Road Map",
+                                "content": "ROADMAP",
+                                "name": "Google Road Map",
+                                "type": "google"
+                            }
+                        ]
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/mapfeatures",
+                        "styleSet": [
+                            {
+                                "type": "wms",
+                                "name": "eoc:GUF_04",
+                                "title": "GUF 04 (cached)",
+                                "abstract": "GUF 04 (cached)",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/gwc/service/wms",
+                                    "@type": "image/png"
+                                },
+                                "transparent": "true",
+                                "attribution": "Urban Tep",
+                                "opacity": 1,
+                                "@default": false
+                            },
+                            {
+                                "type": "wms",
+                                "name": "eoc:GUF_28",
+                                "title": "GUF 28 (cached)",
+                                "abstract": "GUF 28 (cached)",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/gwc/service/wms",
+                                    "@type": "image/png"
+                                },
+                                "transparent": "true",
+                                "attribution": "Urban Tep",
+                                "opacity": 1,
+                                "@default": false
+                            },
+                            {
+                                "type": "wms",
+                                "name": "eoc:GUF_10_Density",
+                                "title": "GUF 10 Density",
+                                "abstract": "GUF 10 Density",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/eoc/wms",
+                                    "@type": "image/png"
+                                },
+                                "transparent": "true",
+                                "attribution": "Urban Tep",
+                                "opacity": 1,
+                                "@default": false
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "@code": "http://www.opengis.net/spec/owc/1.0/req/atom/wps",
+                        "operation": {
+                            "@code": "ListProcess",
+                            "@href": "/geobrowser/thematicApps/guf/services.json",
+                            "@method": "GET",
+                            "@type": "application/json"
+                        }
+                    }
+                ],
+                "publisher": "Terradue",
+                "rights": "Fee:NONE / Contraints:NONE",
+                "summary": "Global Urban Footprint application. It allows subsetting and analysis of the GUF dataset with PUMA.",
+                "title": "Global Urban Footprint",
+                "updated": "2016-03-07T18:11:19Z"
+            },
+            "type": "Feature"
+        }
+    ],
+    "properties": {
+        "box": "90 -180 -90 180",
+        "categories": [
+            {
+                "@label": "Thematic Application",
+                "@scheme": "http://www.terradue.com/feed",
+                "@term": "thematicapplication"
+            }
+        ],
+        "links": [
+            {
+                "@href": "https://urban-tep.eo.esa.int/t2api/apps/search?q=guf&format=atom",
+                "@rel": "self",
+                "@title": "Reference link",
+                "@type": "application/atom+xml"
+            },
+            {
+                "@href": "https://urban-tep.eo.esa.int/t2api/apps/description",
+                "@rel": "search",
+                "@title": "OpenSearch Description link",
+                "@type": "application/opensearchdescription+xml"
+            }
+        ],
+        "publisher": "Terradue",
+        "title": "urban thematic applications search results",
+        "totalResults": "0",
+        "updated": "2016-03-08T10:26:04Z"
+    },
+    "type": "FeatureCollection"
+}

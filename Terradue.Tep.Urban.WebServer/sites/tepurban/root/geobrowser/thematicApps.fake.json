@@ -1,0 +1,500 @@
+{
+    "features": [
+        {
+            "id": "https://catalog.terradue.com:443//eboissier/search?format=json&uid=gufbasic",
+            "properties": {
+                "authors": [
+                    {
+                        "email": "",
+                        "icon": "http://eomag.eu/images/231.jpg",
+                        "name": "Brockmann Consult",
+                        "uri": "http://www.brockmann-consult.de"
+                    }
+                ],
+                "categories": [
+                    {
+                        "@label": "gufbasic",
+                        "@scheme": null,
+                        "@term": "gufbasic"
+                    },
+                    {
+                        "@label": "App",
+                        "@scheme": null,
+                        "@term": "thematicapp"
+                    }
+                ],
+                "content": "",
+                "date": "2009-01-23T09:08:56.0000000Z/2020-01-23T09:14:08.0000000Z",
+                "identifier": "gufbasic",
+                "links": [
+                    {
+                        "@href": "https://store.terradue.com/api/urban-apps/images/guf.png",
+                        "@rel": "icon",
+                        "@type": "image/png"
+                    },
+                    {
+                        "@href": "https://catalog.terradue.com//eboissier/search?format=json&uid=gufbasic",
+                        "@rel": "self",
+                        "@title": "Reference link",
+                        "@type": "application/json"
+                    }
+                ],
+                "offering": [
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/basemaps",
+                        "styleSet": {
+                            "@default": "true",
+                            "abstract": "Light Map",
+                            "content": "tepgeohazards.l6md4p2l",
+                            "name": "Light Map",
+                            "type": "mapbox"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/mapfeatures",
+                        "styleSet": [
+                            {
+                                "@default": "false",
+                                "abstract": "GUF2012-12m (for scientific use only)",
+                                "attribution": "DLR",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/gwc/service/wms",
+                                    "@type": "image/png"
+                                },
+                                "name": "eoc:GUF_04",
+                                "title": "GUF2012-12m (for scientific use only)",
+                                "type": "wms"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "GUF2012-84m (for non-profit use only)",
+                                "attribution": "DLR",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/gwc/service/wms",
+                                    "@type": "image/png"
+                                },
+                                "name": "eoc:GUF_28",
+                                "title": "GUF2012-84m (for non-profit use only)",
+                                "type": "wms"
+                            }
+                        ]
+                    }
+                ],
+                "published": "2016-11-16T15:10:02Z",
+                "summary": "Basic version of the Global Urban Footprint application.",
+                "title": "Global Urban Footprint - Basic",
+                "updated": "2016-11-16T15:31:49Z"
+            },
+            "type": "Feature"
+        },
+        {
+            "id": "https://catalog.terradue.com:443//eboissier/search?format=json&uid=guf",
+            "properties": {
+                "authors": [
+                    {
+                        "email": "",
+                        "icon": "http://eomag.eu/images/231.jpg",
+                        "name": "Brockmann Consult",
+                        "uri": "http://www.brockmann-consult.de"
+                    }
+                ],
+                "categories": [
+                    {
+                        "@label": "guf",
+                        "@scheme": null,
+                        "@term": "guf"
+                    },
+                    {
+                        "@label": "App",
+                        "@scheme": null,
+                        "@term": "thematicapp"
+                    }
+                ],
+                "content": "",
+                "date": "2009-01-23T09:08:56.0000000Z/2020-01-23T09:14:08.0000000Z",
+                "identifier": "guf",
+                "links": [
+                    {
+                        "@href": "https://store.terradue.com/api/urban-apps/images/guf.png",
+                        "@rel": "icon",
+                        "@type": "image/png"
+                    },
+                    {
+                        "@href": "https://catalog.terradue.com//eboissier/search?format=json&uid=guf",
+                        "@rel": "self",
+                        "@title": "Reference link",
+                        "@type": "application/json"
+                    }
+                ],
+                "offering": [
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/datacontext",
+                        "styleSet": {
+                            "@default": "false",
+                            "abstract": "TerraSAR-X collection",
+                            "legendURL": {
+                                "@href": "http://www.terradue.com/images/logo-t2.png"
+                            },
+                            "name": "EO Data/TerraSAR-X",
+                            "title": "Default Data Collections"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/opensearch",
+                        "operation": {
+                            "@code": "DescribeDataset",
+                            "@href": "https://data2.terradue.com/eop/va4-terrasar-x/dataset/description",
+                            "@method": "GET",
+                            "@type": "application/opensearchdescription+xml",
+                            "datacontext": "EO Data/TerraSAR-X"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/opensearchtable"
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/datapackage",
+                        "operation": {
+                            "@code": "Search",
+                            "@href": "file:///t2api/data/package/search?format=json",
+                            "@method": "GET",
+                            "@type": "application/json"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/featuresbasket",
+                        "operation": {
+                            "@code": "Description",
+                            "@href": "file:///t2api/data/package/default/description",
+                            "@method": "GET",
+                            "@type": "application/opensearchdescription+xml"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/basemaps",
+                        "styleSet": [
+                            {
+                                "@default": "false",
+                                "abstract": "Default map",
+                                "content": "tepgeohazards.l6mdm2gn",
+                                "name": "Default",
+                                "type": "mapbox"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "Light Map",
+                                "content": "tepgeohazards.l6md4p2l",
+                                "name": "Light Map",
+                                "type": "mapbox"
+                            },
+                            {
+                                "@default": "true",
+                                "abstract": "Natural Earth",
+                                "content": "tepgeohazards.l6md2364",
+                                "name": "Natural Earth",
+                                "type": "mapbox"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "Dark map",
+                                "content": "tepgeohazards.l6mdoh89",
+                                "name": "Dark map",
+                                "type": "mapbox"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "Google Road map",
+                                "content": "ROADMAP",
+                                "name": "Google Road map",
+                                "type": "google"
+                            }
+                        ]
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/mapfeatures",
+                        "styleSet": [
+                            {
+                                "@default": "false",
+                                "abstract": "GUF2012-12m (for scientific use only)",
+                                "attribution": "Urban Tep",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/gwc/service/wms",
+                                    "@type": "image/png"
+                                },
+                                "name": "eoc:GUF_04",
+                                "title": "GUF2012-12m (for scientific use only)",
+                                "type": "wms"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "GUF2012-84m (for non-profit use only)",
+                                "attribution": "Urban Tep",
+                                "content": {
+                                    "@href": "http://utep.it4i.cz/geoserver/gwc/service/wms",
+                                    "@type": "image/png"
+                                },
+                                "name": "eoc:GUF_28",
+                                "title": "GUF2012-84m (for non-profit use only)",
+                                "type": "wms"
+                            }
+                        ]
+                    },
+                    {
+                        "@code": "http://www.opengis.net/spec/owc/1.0/req/atom/wps",
+                        "operation": {
+                            "@code": "ListProcess",
+                            "@href": "file:///geobrowser/thematicApps/guf/services.json",
+                            "@method": "GET",
+                            "@type": "application/json"
+                        }
+                    }
+                ],
+                "published": "2016-10-09T15:10:02Z",
+                "summary": "Global Urban Footprint application. It allows subsetting and analysis of the GUF dataset with PUMA.",
+                "title": "Global Urban Footprint",
+                "updated": "2016-11-16T15:31:49Z"
+            },
+            "type": "Feature"
+        },
+        {
+            "id": "https://catalog.terradue.com:443//eboissier/search?format=json&uid=worldpop",
+            "properties": {
+                "authors": [
+                    {
+                        "email": "",
+                        "icon": "http://www.geodata.soton.ac.uk/geodata/resources/images/GeoData_logo.png",
+                        "name": "Geodata Institute",
+                        "uri": "http://www.geodata.soton.ac.uk/"
+                    }
+                ],
+                "content": "",
+                "date": "0001-01-01T00:00:00Z",
+                "identifier": "worldpop",
+                "links": [
+                    {
+                        "@href": "https://store.terradue.com/api/urban-apps/images/worldpop.png",
+                        "@rel": "icon",
+                        "@type": "image/png"
+                    },
+                    {
+                        "@href": "https://catalog.terradue.com//eboissier/search?format=json&uid=worldpop",
+                        "@rel": "self",
+                        "@title": "Reference link",
+                        "@type": "application/json"
+                    }
+                ],
+                "offering": [
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/opensearchtable"
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/datapackage",
+                        "operation": {
+                            "@code": "Search",
+                            "@href": "file:///t2api/data/package/search?format=json",
+                            "@method": "GET",
+                            "@type": "application/json"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/featuresbasket",
+                        "operation": {
+                            "@code": "Description",
+                            "@href": "file:///t2api/data/package/default/description",
+                            "@method": "GET",
+                            "@type": "application/opensearchdescription+xml"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/basemaps",
+                        "styleSet": {
+                            "@default": "true",
+                            "abstract": "Default map",
+                            "content": "http://tiles-{s}.worldpop.org.uk/tilesets/global-1km/{z}/{x}/{y}.png",
+                            "name": "People per grid square",
+                            "type": "tilemap"
+                        }
+                    },
+                    {
+                        "@code": "http://www.opengis.net/spec/owc/1.0/req/atom/wps",
+                        "operation": {
+                            "@code": "ListProcess",
+                            "@href": "file:///geobrowser/thematicApps/hm/services.json",
+                            "@method": "GET",
+                            "@type": "application/json"
+                        }
+                    }
+                ],
+                "published": "2016-10-09T15:10:02Z",
+                "summary": "Worldpop",
+                "title": "Worldpop",
+                "updated": "2016-11-16T15:31:49Z"
+            },
+            "type": "Feature"
+        },
+        {
+            "id": "https://catalog.terradue.com:443//eboissier/search?format=json&uid=timescan",
+            "properties": {
+                "authors": [
+                    {
+                        "email": "",
+                        "icon": "http://www.gisat.cz/images/logo.gif",
+                        "name": "Gisat",
+                        "uri": "http://www.gisat.cz/"
+                    }
+                ],
+                "categories": [
+                    {
+                        "@label": "Workflow",
+                        "@scheme": null,
+                        "@term": "workflow"
+                    },
+                    {
+                        "@label": "App",
+                        "@scheme": null,
+                        "@term": "thematicapp"
+                    }
+                ],
+                "content": "",
+                "date": "0001-01-01T00:00:00Z",
+                "identifier": "timescan",
+                "links": [
+                    {
+                        "@href": "https://store.terradue.com/api/urban-apps/images/timescan.png",
+                        "@rel": "icon",
+                        "@type": "image/png"
+                    },
+                    {
+                        "@href": "https://catalog.terradue.com//eboissier/search?format=json&uid=timescan",
+                        "@rel": "self",
+                        "@title": "Reference link",
+                        "@type": "application/json"
+                    }
+                ],
+                "offering": [
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/datacontext",
+                        "styleSet": {
+                            "@default": "true",
+                            "abstract": "Landsat 8 collection",
+                            "legendURL": {
+                                "@href": "http://www.terradue.com/images/logo-t2.png"
+                            },
+                            "name": "EO Data/Landsat8",
+                            "title": "Default Data Collections"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/opensearch",
+                        "operation": {
+                            "@code": "DescribeDataset",
+                            "@href": "https://catalog.terradue.com/landsat8/description",
+                            "@method": "GET",
+                            "@type": "application/opensearchdescription+xml",
+                            "datacontext": "EO Data/Landsat 8"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/opensearchtable"
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/datapackage",
+                        "operation": {
+                            "@code": "Search",
+                            "@href": "file:///t2api/data/package/search?format=json",
+                            "@method": "GET",
+                            "@type": "application/json"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/featuresbasket",
+                        "operation": {
+                            "@code": "Description",
+                            "@href": "file:///t2api/data/package/default/description",
+                            "@method": "GET",
+                            "@type": "application/opensearchdescription+xml"
+                        }
+                    },
+                    {
+                        "@code": "http://www.terradue.com/spec/owc/1.0/req/atom/basemaps",
+                        "styleSet": [
+                            {
+                                "@default": "true",
+                                "abstract": "Default map",
+                                "content": "tepgeohazards.l6mdm2gn",
+                                "name": "Default",
+                                "type": "mapbox"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "Light Map",
+                                "content": "tepgeohazards.l6md4p2l",
+                                "name": "Light Map",
+                                "type": "mapbox"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "Natural Earth",
+                                "content": "tepgeohazards.l6md2364",
+                                "name": "Natural Earth",
+                                "type": "mapbox"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "Dark map",
+                                "content": "tepgeohazards.l6mdoh89",
+                                "name": "Dark map",
+                                "type": "mapbox"
+                            },
+                            {
+                                "@default": "false",
+                                "abstract": "Google Road map",
+                                "content": "ROADMAP",
+                                "name": "Google Road map",
+                                "type": "google"
+                            }
+                        ]
+                    },
+                    {
+                        "@code": "http://www.opengis.net/spec/owc/1.0/req/atom/wps",
+                        "operation": {
+                            "@code": "ListProcess",
+                            "@href": "file:///geobrowser/thematicApps/timescan/services.json",
+                            "@method": "GET",
+                            "@type": "application/json"
+                        }
+                    }
+                ],
+                "published": "2016-10-09T15:10:02Z",
+                "summary": "On-demand temporal statistic application.",
+                "title": "On-demand temporal statistic",
+                "updated": "2016-11-16T15:31:49Z"
+            },
+            "type": "Feature"
+        }
+    ],
+    "id": "https://catalog.terradue.com:443//eboissier/search?format=json",
+    "properties": {
+        "Query": {},
+        "itemsPerPage": "20",
+        "links": [
+            {
+                "@href": "https://catalog.terradue.com//eboissier/search?format=json",
+                "@rel": "self",
+                "@title": "Reference link",
+                "@type": "application/json"
+            },
+            {
+                "@href": "https://catalog.terradue.com//eboissier/description",
+                "@rel": "search",
+                "@title": "OpenSearch Description link",
+                "@type": "application/opensearchdescription+xml"
+            }
+        ],
+        "startIndex": "1",
+        "title": "Result for OpenSearch query over type * in index eboissier",
+        "totalResults": "4",
+        "updated": "2016-11-16T15:36:53Z"
+    },
+    "type": "FeatureCollection"
+}

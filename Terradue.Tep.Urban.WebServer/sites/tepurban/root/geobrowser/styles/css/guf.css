@@ -1,0 +1,10 @@
+
+#requestDataLink {
+	float: right;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+#requestDataLink > .nav {
+	margin-bottom: 0px;
+}

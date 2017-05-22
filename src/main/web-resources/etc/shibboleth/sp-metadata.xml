@@ -1,0 +1,69 @@
+<EntityDescriptor entityID="https://urban-tep.eo.esa.int/shibboleth" validUntil="2030-01-01T00:00:00Z"
+                  xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
+                  xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                  xmlns:shibmd="urn:mace:shibboleth:metadata:1.0"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <KeyDescriptor>
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIGUDCCBTigAwIBAgIRAJKn1U11mxF5T3wUKJ4sOg4wDQYJKoZIhvcNAQELBQAw
+gZYxCzAJBgNVBAYTAkdCMRswGQYDVQQIExJHcmVhdGVyIE1hbmNoZXN0ZXIxEDAO
+BgNVBAcTB1NhbGZvcmQxGjAYBgNVBAoTEUNPTU9ETyBDQSBMaW1pdGVkMTwwOgYD
+VQQDEzNDT01PRE8gUlNBIE9yZ2FuaXphdGlvbiBWYWxpZGF0aW9uIFNlY3VyZSBT
+ZXJ2ZXIgQ0EwHhcNMTUxMDEwMDAwMDAwWhcNMTcxMDA5MjM1OTU5WjCCATIxCzAJ
+BgNVBAYTAklUMQ4wDAYDVQQREwUwMDA0NDENMAsGA1UECBMEUm9tYTERMA8GA1UE
+BxMIRnJhc2NhdGkxGzAZBgNVBAkTEkNhc2VsbGEgUG9zdGFsZSA2NDEcMBoGA1UE
+CRMTVmlhIEdhbGlsZW8gR2FsaWxlaTE9MDsGA1UEChM0RVNBLUVTUklOIChFdXJv
+cGVhbiBTcGFjZSBBZ2VuY3kgUmVzZWFyY2ggSW5zdGl0dXRlKTEbMBkGA1UECxMS
+SG9zdGVkIGJ5IFRlcnJhZHVlMSgwJgYDVQQLEx9Ib3N0ZWQgYnkgRXVyb3BlYW4g
+U3BhY2UgQWdlbmN5MREwDwYDVQQLEwhFbGl0ZVNTTDEdMBsGA1UEAxMUdXJiYW4t
+dGVwLmVvLmVzYS5pbnQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDP
+CfdIqXsaeOnRsUCpBmWEnh0PdLSSJ1Uvg6abBUzwm5r3ICMu9OT27RVFH9ZsIS8D
+TyRF6+CN8qJXzdIKX4WzPQwrP+1g92PlsFTdJHrODLnV+/FqLxAV7Ca9BoLUtplP
+ikvfFolmqGXVI7ZwczhAOu7N/X00XjxNBO080Vk0s01FDVVv3YUmkq92ht36vU3n
+K3d/szttlHVCsOHxdPHQQKQQ9X4fqjfwTVnNGqXkUAFeQBIvvnsG/Nvbt2XZjGOx
+1YucYb3kJT0WsurZVn9mKE0/9BgjZYC1jBPW/LZKI4CU4QIZ1dYlAsrpxnTea/Vp
+gVN5s+/WDzgiRbKcW9rFAgMBAAGjggH4MIIB9DAfBgNVHSMEGDAWgBSa8yvaz61P
+ti+7KkhIKhK3G0LBJDAdBgNVHQ4EFgQUBda3FhbA5TuByisWMyyT5WJZEycwDgYD
+VR0PAQH/BAQDAgWgMAwGA1UdEwEB/wQCMAAwHQYDVR0lBBYwFAYIKwYBBQUHAwEG
+CCsGAQUFBwMCMFAGA1UdIARJMEcwOwYMKwYBBAGyMQECAQMEMCswKQYIKwYBBQUH
+AgEWHWh0dHBzOi8vc2VjdXJlLmNvbW9kby5jb20vQ1BTMAgGBmeBDAECAjBaBgNV
+HR8EUzBRME+gTaBLhklodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9SU0FP
+cmdhbml6YXRpb25WYWxpZGF0aW9uU2VjdXJlU2VydmVyQ0EuY3JsMIGLBggrBgEF
+BQcBAQR/MH0wVQYIKwYBBQUHMAKGSWh0dHA6Ly9jcnQuY29tb2RvY2EuY29tL0NP
+TU9ET1JTQU9yZ2FuaXphdGlvblZhbGlkYXRpb25TZWN1cmVTZXJ2ZXJDQS5jcnQw
+JAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmNvbW9kb2NhLmNvbTA5BgNVHREEMjAw
+ghR1cmJhbi10ZXAuZW8uZXNhLmludIIYd3d3LnVyYmFuLXRlcC5lby5lc2EuaW50
+MA0GCSqGSIb3DQEBCwUAA4IBAQAUBsFgceLBONh52IokjSOtXmfrLbqJrz4gP6Q7
+rbj5gslwpzsPj6Ga1gkFWIsfBifc+BOVstDh+44xa44qgLtw/e5N/Rx3u5PtdHwx
+QPeFGYTFPAG1TysWMnTELRMeXQ2VjVt6EPkSXbSi0ti7YXAk53RoyH2sFvjIpjuB
+iSFRic3tOncRpdP+ynSR9fg4C10B9aJVv8oo4S5AQrKIlF3EkZ1XhE2VgBETv4lE
+xqCJG/XIsS7ndzEDB0Pezdv+Tn65r/FqvWuAHwuJQqnrQTe1W1nvlttXh8WM1+Lv
+EYNcF92BO40BHJ1Q+1B/LKAkgE56DcFbtAhn6sKjGJ2vYPeT        
+	  </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+
+    <AssertionConsumerService Location="https://urban-tep.eo.esa.int/Shibboleth.sso/SAML2/Artifact" index="1" isDefault="true" 
+      Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact"/>
+
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://urban-tep.eo.esa.int/Shibboleth.sso/SLO/Redirect"/>
+
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+
+  </SPSSODescriptor>
+
+  <Organization>
+    <OrganizationName xml:lang="en">urban-tep</OrganizationName>
+    <OrganizationDisplayName xml:lang="en">urban Tep Portal</OrganizationDisplayName>
+    <OrganizationURL xml:lang="en">https://urban-tep.eo.esa.int</OrganizationURL>
+  </Organization>
+
+</EntityDescriptor>
+

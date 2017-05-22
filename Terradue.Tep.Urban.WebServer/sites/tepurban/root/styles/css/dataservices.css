@@ -1,0 +1,63 @@
+
+#pageDataServices .pageTitle {
+	background-image: url(../img/DataServices.png);
+	background-position: 0px 2%;
+}
+
+#pageDataServices p {
+	margin-bottom: 20px;
+}
+#pageDataServices ol {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#pageDataServices ol li {
+	margin-bottom: 20px;
+}
+
+#pageDataServices h3 {
+	margin: 0px;
+}
+
+#pageDataServices .dataServicesFigures { text-align: center; }
+#pageDataServices .dataServicesFigures > div {
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#pageDataServices .dataServicesFigures .image {
+    border: 1px solid #ccc;
+    display: block;
+    height: 130px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border-radius: 6px;
+}
+#pageDataServices .dataServicesFigures .image.image1 {
+	background-image: url(../img/data/1_GUF_TOKYO.png);
+}
+#pageDataServices .dataServicesFigures .image.image2 {
+	background-image: url(../img/data/4_RegionalImperviousnessGreeneryIndex_MILAN.png);
+}
+#pageDataServices .dataServicesFigures .image.image3 {
+	background-image: url(../img/data/GUF-NetS.png);
+}
+#pageDataServices .dataServicesFigures .image.image4 {
+	background-image: url(../img/data/2_Settlement_Pattern.png);
+}
+#pageDataServices .dataServicesFigures .image.image5 {
+	background-image: url(../img/data/metricsIndicators.png);
+}
+#pageDataServices .dataServicesFigures .image.image6 {
+	background-image: url(../img/data/timescan.png);
+}
+#pageDataServices .dataServicesFigures .image.image7 {
+	background-image: url(../img/data/6_TouristsRoutes.png);
+}
+#pageDataServices .dataServicesFigures .image.image8 {
+	background-image: url(../img/data/5_NRTmobilitymodelservice.png);
+}
+

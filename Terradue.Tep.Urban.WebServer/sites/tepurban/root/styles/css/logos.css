@@ -1,0 +1,38 @@
+
+/* TO CHECK */
+
+#logos > div {
+	text-align: center;
+}
+
+#logos a [class^="icon-"]:hover {
+	text-decoration: none;
+}
+
+#logos h4 > a {
+	color: #656565;
+	border-top: 3px solid;
+}
+
+#logos div {
+	display: inline-block;
+	height: 20px;
+	margin-left: 13px;
+	background-position-y: 0px;
+	background-repeat: no-repeat;
+}
+
+#logos div.esa-min {
+	background-image: url(../img/logos/esa-min-s.png);
+	background-size: 50px;
+	width: 50px;
+}
+#logos div.ceos-min {
+	background-image: url(../img/logos/ceos-min-s.png);
+	width: 50px;
+}
+#logos div.geo-min {
+	background-image: url(../img/logos/geo-min-s.png);
+	width: 42px;
+}
+#logos div:hover { background-position: 0 -20px; }

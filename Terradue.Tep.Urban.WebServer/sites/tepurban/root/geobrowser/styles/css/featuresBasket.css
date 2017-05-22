@@ -1,0 +1,132 @@
+
+#featuresBasket .featureBasketItem {
+	position: relative;
+}
+#featuresBasket .featureBasketItem > .removeItem {
+	display: none;
+	color: #555;
+	font-size: 12px;
+	float: right;
+}
+#featuresBasket .featureBasketItem > .removeItem:hover { color: black; }
+#featuresBasket .jt-tr:hover .featureBasketItem > .removeItem {
+	display: block;
+}
+
+
+/* #basketOpensearchTable .jt-tr {
+	background: rgb(204, 204, 255);
+}
+
+#osResultsTable .jt-tr {
+	background: rgb(255, 199, 149);
+}
+*/
+
+/* .switchToDataPackagesPanelBtn {
+	position: absolute;
+	right: 10px;
+	background: #ddd;
+	padding: 5px;
+	color: #666;
+	font-weight: bold;
+	border-radius: 3px;
+	font-size: 14px;
+	line-height: 16px;
+}
+.switchToDataPackagesPanelBtn:hover {
+	background-color: #eee;
+	color: #666;
+	text-decoration: inherit;
+} */
+
+
+/* drop message */
+#featuresBasket > .dropMessage {
+	background: rgba(255, 225, 192, 0.4);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	z-index: 1000;
+	border-radius: 5px;
+	display: none;
+	color: gray;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 29px;
+	font-weight: bolder;
+	line-height: 33px;
+}
+#featuresBasket > .dropMessage > p > small { display: block; font-size: 50%; }
+#featuresBasket.dropActive > .dropMessage{
+	display: block;
+}
+#featuresBasket.dropHover > .dropMessage{
+	display: block;
+	background: rgba(255, 225, 192, 0.7);
+	color: black;
+}
+
+
+
+/* TODO REMOVE?  */
+
+/* #featuresBasket {
+	height: 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	font-size: 10px;
+}
+
+#featuresBasket > .header {
+	padding-left: 12px;
+	flex-shrink: 0;
+}
+#featuresBasket > .featuresBasketTable {
+	height: 100%;
+	overflow: scroll;
+}
+
+#featuresBasket > .header > h5 {
+	margin: 0px;
+}
+
+
+#featuresBasket > .featuresBasketTable .feature {
+	background: #eee;
+	margin-bottom: 8px;
+	min-height: 50px;
+	padding: 5px;
+}
+
+#featuresBasket > .featuresBasketTable .feature h6 {
+	margin: 0px;
+}
+
+#featuresBasket > .featuresBasketTable>table:hover {
+	background-color: #eee;
+}
+#featuresBasket > .featuresBasketTable>table:hover tr>td:nth-child(2){
+	cursor: move;
+}
+
+#featuresBasket > .featuresBasketTable>table td {
+	line-height: 12px;
+	font-size: 10px;
+}
+#featuresBasket > .featuresBasketTable>table .removeItem{
+	font-size: 12px;
+	text-align: center;
+	width: 20px;
+}
+
+#featuresBasket > .featuresBasket > .feature .links { margin-bottom: 2px; }
+#featuresBasket > .featuresBasket > .feature .links > a:after { content: ","; }
+#featuresBasket > .featuresBasket > .feature .links > a:last-child:after { content: ""; }
+#featuresBasket > .featuresBasket .menu {
+	margin-left: 8px
+}
+
+ */

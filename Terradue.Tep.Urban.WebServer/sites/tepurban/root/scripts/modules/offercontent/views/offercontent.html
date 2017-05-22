@@ -1,0 +1,275 @@
+<style>
+#offerContent label {
+	font-weight: bold;
+}
+#offerContent .pageTitle {
+	background-image: url(../../../styles/img/offerContent.png);
+	background-position: 0px 40%;
+}
+</style>
+<div id="offerContent">
+	<div class='pageTitle'>
+		<div>
+			<h2>Develop and offer content</h2>
+		</div>
+	</div>
+	<div class="activities container">
+		<div>
+			<p>Development of content and its offering goes beyond using, analysing and combining datasets and services available on the Urban TEP (U-TEP) platform. Here, the user can bring in additional expertise and functionality by providing a new “urban-related” dataset or  data processor. The data set or processor might be developed in an external envi-ronment or generated on-site using the U-TEP platform. A data processor can be offered as a service, or it can be used to generate new datasets or systematically extend existing ones.</p>
+			<p>This service is open to well-known, registered users of the U-TEP. We hope for your understanding that during initial operations the registration of well-known users free-of-charge is restricted to a selected set of pilot organisations. To become a well-known user you further have to register with one of the U-TEP processing centres.</p>
+			<p>
+				<ul>
+				<li><a href="#" data-id="registrationWellKnown" class="goToHash">Registration as well-known user</a></li>
+				<li><a href="#" data-id="managingDatasets" class="goToHash">Managing your own datasets</a></li>
+				<li><a href="#" data-id="developingDataProcessor" class="goToHash">Developing your own data processors</a></li>
+				</ul>
+			</p>
+		</div>
+
+		{{#if user}}
+		<div>
+			<h2 id="registrationWellKnown" class="alert alert-info">Registration as well-known user</h2>
+			<p>The upload of datasets and the upload and use of data processors on the U-TEP platform requires registration with one of the U-TEP processing centres. Depending on the datasets of interest one or several processing centres may be adequate for your tasks. Registration requires your signature that you obey the rules of the processing centre.</p>
+			<p>If you are a member of one of the pilot organisations then please fill the form:</p>
+			<form data-subject="Registration as well-known user">
+				<input name="UserLogin" type="hidden" value="{{user.Username}}">
+				<div>
+					<label>Organisation</label>
+					<div><input type="text" title="Organisation" name="Organisation" placeholder="Organisation"></input></div>
+				</div>
+				<br/>
+				<div>
+					<label>Name</label>
+					<div><input type="text" title="Name" name="Name" placeholder="Name"></input></div>
+				</div>
+				<br/>
+				<div>
+					<label>Email</label>
+					<div><input type="text" title="Email" name="Email" placeholder="Email"></input></div>
+				</div>
+				<br/>
+				<div>
+					<label>If you intend to provide additional datasets, please describe the topic</label>
+					<div><textarea title="Topic" name="Topic" placeholder="Topic"></textarea></div>
+				</div>
+				<br/>
+				<div>
+					<label>If you intend to upload data processors, please identify the required input data, processing level, etc. (e.g., Sentinel 2, Landsat, ...)</label>
+					<div><textarea title="Input" name="Input" placeholder="Input data"></textarea></div>
+				</div>
+				<br/>
+				<div>
+					<label>Comments</label>
+					<div><textarea title="Comments" name="Comments" placeholder="Comments"></textarea></div>
+				</div>
+				<br/>
+				<div> 
+					<a class="btn btn-default submitForm">Submit</a>
+				</div>
+			</form>
+		</div>
+
+		<div>
+			<h2 id="managingDatasets" class="alert alert-info">Manage your own datasets</h2>
+			<p>Earth observation datasets of different sensors and some multi-purpose thematic da-tasets are provided on U-TEP already. If you have an additional dataset required for your processing or that you want to share with or offer to a particular U-TEP community you can upload it. You must own the dataset or have the right to share the dataset to be uploaded. Check whether there is no dataset on the platform that can serve your purpose before requesting upload, please.
+			<p><a href="#" data-id="requestingUploadUserDataset" class="goToHash">Requesting upload of a user-provided urban dataset</a></p>
+			<p>You may have generated a dataset by the application of a processors available on the platform or a data processor provided by you. Or you have uploaded a dataset of wider application and you want to make it available for use on the -TEP platform by a particular community or all users. The dataset can be used as input for processing or in analyses to combine it with other information.</p>
+			<p><a href="#" data-id="requestingPublicationDataset" class="goToHash">Requesting publication of a dataset</a></p>
+		</div>
+
+		<div>
+			<h3 id="requestingUploadUserDataset" class="alert alert-default">Requesting upload of a user-provided dataset</h3>
+			<p>Upload an urban-related dataset to U-TEP as new layer for analysis or input for pro-cessing on the platform</p>
+			<form data-subject="Requesting upload of a user-provided dataset">
+				<input name="UserLogin" type="hidden" value="{{user.Username}}">
+				<div>
+					<label>Name</label>
+					<div><input type="text" title="Name" name="Name" placeholder="Name"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Type</label>
+					<div><input type="text" title="Type" name="Type" placeholder="Type"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Spatial coverage</label>
+					<div><input type="text" title="SpatialCoverage" name="SpatialCoverage" placeholder="Spatial coverage"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Temporal coverage</label>
+					<div><input type="text" title="TemporalCoverage" name="TemporalCoverage" placeholder="Temporal coverage"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Dataset description</label>
+					<div><input type="text" title="DatasetDescription" name="DatasetDescription" placeholder="Dataset description"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Ownership, license information</label>
+					<div><input type="text" title="Ownership" name="Ownership" placeholder="Ownership, license information"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Way of transfer, access information</label>
+					<div><input type="text" title="WayOfTransfer" name="WayOfTransfer" placeholder="Way of transfer, access information"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Comments</label>
+					<div><input type="text" title="Comments" name="Comments" placeholder="Comments"></input></div>
+				</div>
+					<br/>
+				<div> 
+				    <div><button type="submit" class="btn btn-default submitForm">Submit</button></div>
+				</div>
+			</form>
+		</div>
+
+		<div>
+			<h3 id="requestingPublicationDataset" class="alert alert-default">Requesting publication of a dataset</h3>
+			<p>You may have generated a dataset by the application of processors on the platform, or uploaded a user-provided dataset to the platform. Now, you want to make it available for use on the U-TEP portal by a particular community or all users.</p>
+			<form data-subject="Requesting publication of a dataset">
+				<input name="UserLogin" type="hidden" value="{{user.Username}}">
+				<div>
+					<label class="control-label col-sm-2" for="DatasetName">Dataset name</label>
+					<div><input type="text" title="DatasetName" name="DatasetName" placeholder="Dataset name"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label class="control-label col-sm-2" for="SharedWith">Shared with</label>
+					<div><input type="text" title="SharedWith" name="SharedWith" placeholder="community or all users"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label class="control-label col-sm-2" for="Comments">Comments</label>
+					<div><input type="text" title="Comments" name="Comments" placeholder="Comments"></input></div>
+				</div>
+					<br/>
+				<div> 
+				    <div><button type="submit" class="btn btn-default submitForm">Submit</button></div>
+				</div>
+			</form>
+		</div>
+		
+		<div>
+			<h2 id="developingDataProcessor" class="alert alert-info">Developing your own data processors</h2>
+			<p>Earth observation data processors are software elements that can be started and con-trolled by a processing system to generate an output data product from one or several input data products. With the concurrent or sequential application of a data processor to a larger input dataset an output dataset or value-added product can be produced.</p>
+			<p>Development, test, packaging, and upload of a processor to an U-TEP processing centre is supported by a set of tools. These tools are made available in a VM image that can be downloaded and used on your local machine. With few test data this allows for an efficient local test cycle. After upload the same processor that you have tested on EO data products on your local VM, the same functionality can then be applied to larger datasets in the cluster environment of a U-TEPprocessing centre. It is offered to you as an additional service in the U-TEP portal. You must own the data processor and the required software components or have the right to share them in order to upload a processor.</p>
+			<p>The data processor tested on the platform can be released for use by a specific community or any user. Publication of a result dataset is handled the same way as the publication of a user-provided dataset that has been uploaded. Systematic generation and extension with new data can be requested for datasets of common interest where systematic generation is more adequate than processing on demand.</p>
+			<ul>
+			<li><a href="#" data-id="downloadingVMdevdep" class="goToHash">Downloading U–TEP’s VM for processor development and deployment</a></li>
+			<li><a href="#" data-id="devPackUploadDataProcessor" class="goToHash">Development, test, packaging, and upload of a data processor</a></li>
+			<li><a href="#" data-id="pubDataProcessorOtherUser" class="goToHash">Publication of a data processor for use by other users</a></li>
+			<li><a href="#" data-id="requestingPubDataset" class="goToHash">Requesting publication of a result dataset</a></li>
+			<li><a href="#" data-id="proposalDataProcessorSysProc" class="goToHash">Proposal of a data processor for systematic processing</a></li>
+			</ul>
+		</div>
+
+		<div>
+			<h3 id="downloadingVMdevdep" class="alert alert-default">Downloading U–TEP’s VM for processor development and deployment </h3>
+			<p>Download the VM if you want to develop, deploy, and use a data processor for Earth Ob-servation data on an U-TEP processing centre. The VM contains tools to test, package and upload processors. The VM can be run in a hypervisor (e.g. Virtual Box from Oracle) on your local machine.
+				<ul>
+					<li>You can download the VM image <a href="https://www.brockmann-consult.de/bc-wps/software/urbantep-vm-1.0.tar.gz">urbantep-vm-1.0.tar.gz</a> from an Urban TEP processing centre.</li>
+					<li>Unpack the download package to a local directory and start it in your hypervisor. It is a Linux VM that comes with a graphical user interface.</li>
+					<li>Log in to the VM as user urbantep with default password urbantep.</li>
+				</ul>
+			</p>
+		</div>
+
+		<div>
+			<h3 id="devPackUploadDataProcessor" class="alert alert-default">Development, test, packaging, and upload of a data processor</h3>
+			<p>A thematic urban data processor is a software element that uses an input data item (product) and generates an output data product. This relation is not necessarily one-to-one, but many data processors are. You may consider this as an on-demand service. Processors must be executable in Linux. They can be implemented in compiler-based languages (C/C++, Fortran, ...), runtime system languages like Java or Python or R or many others, down to simple shell scripts. The only restriction is that no foreign or com-mercial license shall be required to run the data processor because it will be started concurrently on the cluster infrastructure of a processing centre. 
+				To develop a data processor
+				<ul>
+					<li>Follow the instructions and examples of the Urban TEP Software User Manual</li>
+					<li>You can also find a short set of instructions in <a href="https://www.brockmann-consult.de/bc-wps/software/README">README</a> provided in the VM on the desktop after login.</li>
+					<li>Processors must be locally tested with example input data product before up-load.</li>
+					<li>There are tools for packaging and for upload of your processor in the VM. Packaging usually involves putting your processor into a Docker container but this is done behind the scenes. You may specify dependencies of your processor if it has specific needs. You have to specify identification and parameterisation information for your processor in an XML descriptor file. Examples are provided in the VM. Upload is also supported by a tool that transfers your processor package to a processing centre.</li>
+					<li>The upload to the processing centre requires the authentication as well-known user at the processing centre. Deployment and availability of the processor in the portal may either be automated or partially supported by an operational procedure of the respective processing centre.</li>
+					<li>Test of your processor deployed in a processing centre is done via the portal. At that stage usually only you can use your processor on the Urban TEP platform.</li>
+				</ul>
+			</p>
+		</div>
+
+		<div>
+			<h3 id="pubDataProcessorOtherUser" class="alert alert-default">Publication of a data processor for use by the community</h3>
+			<p>A useful data processor can be offered to a particular community or all users. The pro-cessing centre and the U-TEP portal will modify the access authorisation information in order to provide access to the processor.</p>
+			<form data-subject="Publication of a data processor for use by the community">
+				<input name="UserLogin" type="hidden" value="{{user.Username}}">
+				<div>
+					<label>Processor Name</label>
+					<div><input type="text" title="ProcessorName" name="ProcessorName" placeholder="Processor Name"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Version</label>
+					<div><input type="text" title="Version" name="Version" placeholder="Version"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Description / Function</label>
+					<div><input type="text" title="Description" name="Description" placeholder="Description / Function"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Shared with</label>
+					<div><input type="text" title="SharedWith" name="SharedWith" placeholder="community or all users"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Comments</label>
+					<div><input type="text" title="Comments" name="Comments" placeholder="Comments"></input></div>
+				</div>
+					<br/>
+				<div> 
+				    <div><button type="submit" class="btn btn-default submitForm">Submit</button></div>
+				</div>
+			</form>
+		</div>
+
+		<div>
+			<h3 id="proposalDataProcessorSysProc" class="alert alert-default">Proposal of a data processor for systematic processing</h3>
+			<p>If there is a common interest in the systematic generation and data-driven extension of an urban product then U-TEP may decide to set up a systematic ingestion and pro-cessing chain. The processor to generate products systematically may also involve a user-provided processor.</p>
+			<p>Setup of systematic generation is handled by an operational procedure that involves governance, and subsequently the configuration and integration of a chain starting at the ingestion of new data products and ending in daily new entries in a defined dataset collection. Please understand that the systematic generation of additional datasets may be limited to cases that cannot be easily generated on-demand and that are of high interest for a broad spectrum of urban user communities.</p>
+			<form data-subject="Proposal of a data processor for systematic processing">
+				<input name="UserLogin" type="hidden" value="{{user.Username}}">
+				<div>
+					<label>Dataset name</label>
+					<div><input type="text" title="DatasetName" name="DatasetName" placeholder="Dataset name"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Processor Name And Version</label>
+					<div><input type="text" title="ProcessorNameAndVersion" name="ProcessorNameAndVersion" placeholder="Processor Name And Version"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Processor Parameters</label>
+					<div><input type="text" title="ProcessorParameters" name="ProcessorParameters" placeholder="Processor Parameters"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Aggregation Information</label>
+					<div><input type="text" title="AggregationInformation" name="AggregationInformation" placeholder="Aggregation Information"></input></div>
+				</div>
+					<br/>
+				<div>
+					<label>Comments</label>
+					<div><input type="text" title="Comments" name="Comments" placeholder="Comments"></input></div>
+				</div>
+					<br/>
+				<div> 
+				    <div><button type="submit" class="btn btn-default submitForm">Submit</button></div>
+				</div>
+			</form>
+		</div>
+		{{else}}
+			<p>You must log in to access the content of the page.</p>
+		{{/if}}
+	</div>
+</div>
+
+

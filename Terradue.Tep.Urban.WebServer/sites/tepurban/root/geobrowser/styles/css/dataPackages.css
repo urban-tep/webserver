@@ -1,0 +1,102 @@
+.dataPackagesLabel {
+	display: none;
+}
+
+#dataPackagesPanel {
+	display: none;
+/* 	padding-left: 10px;
+	border-left: 1px solid gray; */
+	height: 100%;
+}
+
+#dataPackagesPanel>.dataPackages {
+	display: flex;
+	display: -webkit-flex;
+
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	
+	height: 100%;
+}
+
+#dataPackagesPanel>.dataPackages > .dataPackagesHeader {
+	height: 32px;
+	flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	font-size: 10px;
+}
+
+#dataPackagesPanel>.dataPackages > .dataPackagesTable {
+	height: 100%;
+	overflow-y: scroll;
+	padding-right: 12px;
+}
+
+/* .switchToFeaturesBasketPanelBtn {
+	font-size: 25px;
+	vertical-align: middle;
+	margin: 0px 6px;
+}
+ */
+
+#dataPackagesPanel>.dataPackages .dataPackageItem {
+	background-color: #ddd;
+	border-radius: 5px;
+	margin-bottom: 6px;
+	position: relative;
+}
+#dataPackagesPanel>.dataPackages .dataPackageItem > div {
+  padding: 3px 6px;
+}
+
+#dataPackagesPanel>.dataPackages .dataPackageItem .removeItem {
+	display: none;
+	color: #555;
+	font-size: 12px;
+	float: right;
+}
+#dataPackagesPanel>.dataPackages .dataPackageItem:hover .removeItem{
+	display: block;
+}
+
+#dataPackagesPanel>.dataPackages .dataPackageOptions { margin-left: 10px; }
+#dataPackagesPanel>.dataPackages .dataPackageOptions > a {
+	font-size: 11px;
+	color: #555;
+}
+
+#dataPackagesPanel>.dataPackages .copyableInput {
+	vertical-align: top;	
+}
+
+#dataPackagesPanel>.dataPackages .selectDataPackage { color: #333333; }
+
+#dataPackagesPanel>.dataPackages .shareButton>i { font-size: 12px; }
+
+/* .dataPackages .dataPackagesList {
+	font-size: 13px;
+}
+.dataPackages a:hover{
+	text-decoration: none;
+}
+.dataPackages .dataPackagesList>.datapackageitem {
+	background-color: rgb(238, 238, 238);
+	border-radius: 4px;
+	padding: 3px 5px;
+}
+.dataPackages .dataPackagesList > .datapackageitem > .dataPackageName {
+	display: inline-block;
+	min-width: 200px;
+	font-weight: bold;
+}
+.dataPackages .dataPackagesList > .datapackageitem > .dataPackageOptions {
+	display: inline-block;
+	font-size: 10px;
+} */
+
+.shareButton.shareDataPackage {
+	font-size: 10px;
+	margin-right: 5px;
+}
+
+

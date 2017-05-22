@@ -1,0 +1,35 @@
+
+html, body {
+	height: 100%;
+	overflow: hidden;
+}
+
+.ui-layout-pane {
+	padding: 0px;
+	border: none;
+}
+.ui-layout-south {
+	padding: 2px 8px;
+}
+.ui-layout-south>div {
+	display: none; /* hidden at startup */
+	height: 100%;
+}
+
+.ui-layout-south>div>div {
+	height: 100%;
+}
+
+/* hide map attribution */
+.leaflet-control-attribution {
+	/* display: none; */
+}
+
+.ui-layout-resizer {
+	background: white;
+}
+
+.ui-layout-toggler {
+	border: 1px solid #DDD;
+	background-color: #DDD;
+}

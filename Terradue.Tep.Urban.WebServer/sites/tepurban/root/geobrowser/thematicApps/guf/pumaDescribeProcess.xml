@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<wps:ProcessDescriptions service="WPS" version="1.0.0" xml:lang="en-GB" xmlns:wps="http://www.opengis.net/wps/1.0.0">
+  <ProcessDescription statusSupported="true" storeSupported="true" wps:processVersion="1.0.0">
+    <Identifier xmlns="http://www.opengis.net/ows/1.1">puma</Identifier>
+    <Title xmlns="http://www.opengis.net/ows/1.1">Analyze in PUMA</Title>
+    <Abstract xmlns="http://www.opengis.net/ows/1.1">This service will upload and start a run analysis on PUMA for further visualization in PUMA interface.</Abstract>
+    <DataInputs>
+      <Input maxOccurs="65536" minOccurs="1">
+        <Identifier xmlns="http://www.opengis.net/ows/1.1">files</Identifier>
+        <Title xmlns="http://www.opengis.net/ows/1.1">Files</Title>
+        <LiteralData>
+          <DataType xmlns="http://www.opengis.net/ows/1.1">string</DataType>
+        </LiteralData>
+      </Input>
+      <Input maxOccurs="1" minOccurs="0">
+        <Identifier xmlns="http://www.opengis.net/ows/1.1">analyses</Identifier>
+        <Title xmlns="http://www.opengis.net/ows/1.1">Analyze type</Title>
+        <Abstract xmlns="http://www.opengis.net/ows/1.1">Analyse type</Abstract>
+        <LiteralData>
+          <DataType xmlns="http://www.opengis.net/ows/1.1">string</DataType>
+          <AllowedValues xmlns="http://www.opengis.net/ows/1.1">
+            <Value>Population</Value>
+            <Value>Land cover status</Value>
+            <Value>Transportation</Value>
+          </AllowedValues>
+        </LiteralData>
+      </Input>
+      <Input maxOccurs="1" minOccurs="0">
+        <Identifier>regionWKT</Identifier>
+        <Title>Region with bounding box</Title>
+        <Abstract>The spatial range in the format of bounding box.</Abstract>
+        <BoundingBoxData>
+          <Default>
+            <CRS>urn:ogc:def:crs:EPSG:6:6:4326</CRS>
+          </Default>
+          <Supported>
+            <CRS>urn:ogc:def:crs:EPSG:6:6:4326</CRS>
+          </Supported>
+        </BoundingBoxData>
+      </Input>
+    </DataInputs>
+    <ProcessOutputs>
+      <Output>
+        <Identifier xmlns="http://www.opengis.net/ows/1.1">url</Identifier>
+        <Title xmlns="http://www.opengis.net/ows/1.1">URL to PUMA for visualization</Title>
+        <ComplexOutput>
+          <Default>
+            <Format>
+              <MimeType>application/url</MimeType>
+            </Format>
+          </Default>
+          <Supported>
+            <Format>
+              <MimeType>application/url</MimeType>
+            </Format>
+          </Supported>
+        </ComplexOutput>
+      </Output>
+    </ProcessOutputs>
+  </ProcessDescription>
+</wps:ProcessDescriptions>

@@ -1,0 +1,89 @@
+{
+    "features": [
+        {
+            "id": "https://urban-tep.eo.esa.int/t2api/service/wps/search?id=d90ac5c7-5964-4e33-8f72-f57cdc3c1772",
+            "properties": {
+                "categories": [
+                    {
+                        "@label": null,
+                        "@scheme": null,
+                        "@term": "WpsOffering"
+                    }
+                ],
+                "identifier": "d90ac5c7-5964-4e33-8f72-f57cdc3c1772",
+                "links": [
+                    {
+                        "@href": "https://urban-tep.eo.esa.int/t2api/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                        "@rel": "alternate"
+                    },
+                    {
+                        "@href": "https://urban-tep.eo.esa.int/t2api/service/wps/search?id=d90ac5c7-5964-4e33-8f72-f57cdc3c1772",
+                        "@rel": "self",
+                        "@title": "TemporalStatistics",
+                        "@type": "application/atom+xml"
+                    },
+                    {
+                        "@href": "https://urban-tep.eo.esa.int/t2api/service/wps/description",
+                        "@rel": "search",
+                        "@title": "OpenSearch Description link",
+                        "@type": "application/opensearchdescription+xml"
+                    },
+                    {
+                        "@href": "https://urban-tep.eo.esa.int/geobrowser/thematicApps/timescan/timescan.png",
+                        "@rel": "icon",
+                        "@title": "icon",
+                        "@type": "image/png"
+                    }
+                ],
+                "offering": {
+                    "operation": [
+                        {
+                            "@code": "GetCapabilities",
+                            "@href": "https://urban-tep.eo.esa.int/t2api/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "DescribeProcess",
+                            "@href": "https://urban-tep.eo.esa.int/t2api/wps/WebProcessingService?service=WPS&request=DescribeProcess&version=1.0&identifier=d90ac5c7-5964-4e33-8f72-f57cdc3c1772",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "Execute",
+                            "@href": "https://urban-tep.eo.esa.int/t2api/wps/WebProcessingService?service=WPS&request=Execute&version=1.0&identifier=d90ac5c7-5964-4e33-8f72-f57cdc3c1772",
+                            "@method": "POST"
+                        }
+                    ]
+                },
+                "publisher": "IT4I",
+                "title": "TemporalStatistics",
+                "updated": "2016-04-26T13:08:59Z",
+                "content": "Temporal Statistics"
+            },
+            "type": "Feature"
+        }
+    ],
+    "properties": {
+        "Query": {
+            "@os:searchTerms": "TEP"
+        },
+        "identifier": "service/wps",
+        "itemsPerPage": "20",
+        "links": [
+            {
+                "@href": "https://urban-tep.eo.esa.int/t2api/service/wps?format=json&q=TEP",
+                "@rel": "alternate"
+            },
+            {
+                "@href": "https://urban-tep.eo.esa.int/t2api/service/wps/description",
+                "@rel": "search",
+                "@title": "OpenSearch Description link",
+                "@type": "application/opensearchdescription+xml"
+            }
+        ],
+        "startIndex": "1",
+        "title": "Discovery feed for service/wps",
+        "totalResults": "5",
+        "updated": "2016-04-26T15:08:59Z"
+    },
+    "type": "FeatureCollection"
+}

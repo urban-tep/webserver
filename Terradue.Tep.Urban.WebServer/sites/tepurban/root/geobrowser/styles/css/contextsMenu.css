@@ -1,0 +1,59 @@
+
+#contextsMenu {
+	float: right;
+	margin-right: 20px;
+}
+
+#contextsMenu .dropdown-menu-fixed {
+    position:fixed;
+    z-index: 100000000;
+    display: block;
+}
+
+#contextsMenu .nav.nav-pills {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+/*
+#contextsMenu ul {
+	margin: 0px;
+}
+
+#contextsMenu li {
+	display: inline-block;
+}
+
+#contextsMenu li > a,
+#contextsMenu li > span  {
+	display: block;
+	min-width: 81px;
+	height: 25px;
+	border-radius: 5px;
+	margin-top: 6px;
+	text-align: center;
+	margin-right: 6px;
+	background-color: rgb(218, 235, 241);
+	padding: 3px 10px 0px 10px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#contextsMenu li:hover > a {
+	cursor: pointer;
+	background-color: rgb(185, 213, 223);
+	text-decoration: none;
+} */
+
+/* active context */
+
+/* #contextsMenu li.active > a {
+	background-color: #0088cc;
+	color: white;
+}
+
+#contextsMenu li.specialContext > span {
+	background-color: #327C04;
+	color: white;
+} */

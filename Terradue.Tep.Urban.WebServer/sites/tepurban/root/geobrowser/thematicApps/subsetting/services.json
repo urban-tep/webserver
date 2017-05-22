@@ -1,0 +1,272 @@
+{
+    "features": [
+        {
+            "id": "http://127.0.0.1:8084/t2api/service/wps/search?id=496eaeba-b773-4090-89f7-0f79ce2f154c",
+            "properties": {
+                "categories": [
+                    {
+                        "@label": null,
+                        "@scheme": null,
+                        "@term": "WpsOffering"
+                    }
+                ],
+                "identifier": "496eaeba-b773-4090-89f7-0f79ce2f154c",
+                "links": [
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                        "@rel": "alternate"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/service/wps/search?id=496eaeba-b773-4090-89f7-0f79ce2f154c",
+                        "@rel": "self",
+                        "@title": "A local subsetting service for Urban TEP",
+                        "@type": "application/atom+xml"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/service/wps/description",
+                        "@rel": "search",
+                        "@title": "OpenSearch Description link",
+                        "@type": "application/opensearchdescription+xml"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/geobrowser/thematicApps/guf/crop2.png",
+                        "@rel": "icon",
+                        "@title": "icon",
+                        "@type": "image/png"
+                    }
+                ],
+                "offering": {
+                    "operation": [
+                        {
+                            "@code": "GetCapabilities",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "DescribeProcess",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=DescribeProcess&version=1.0&identifier=496eaeba-b773-4090-89f7-0f79ce2f154c",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "Execute",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=Execute&version=1.0&identifier=496eaeba-b773-4090-89f7-0f79ce2f154c",
+                            "@method": "POST"
+                        }
+                    ]
+                },
+                "publisher": "brockman",
+                "title": "Small-scale subsetting",
+                "updated": "2016-04-26T13:08:59Z",
+                "content": "Cropping of pre-loaded GUF datasets to a region of interest (selected datasets, small areas, quick processing)"
+            },
+            "type": "Feature"
+        },
+        {
+            "id": "http://127.0.0.1:8084/t2api/service/wps/search?id=4201e8b5-3ee8-4ae3-a896-6c84e433c434",
+            "properties": {
+                "categories": [
+                    {
+                        "@label": null,
+                        "@scheme": null,
+                        "@term": "WpsOffering"
+                    }
+                ],
+                "identifier": "4201e8b5-3ee8-4ae3-a896-6c84e433c434",
+                "links": [
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                        "@rel": "alternate"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/service/wps/search?id=4201e8b5-3ee8-4ae3-a896-6c84e433c434",
+                        "@rel": "self",
+                        "@title": "Urban TEP subsetting",
+                        "@type": "application/atom+xml"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/service/wps/description",
+                        "@rel": "search",
+                        "@title": "OpenSearch Description link",
+                        "@type": "application/opensearchdescription+xml"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/geobrowser/thematicApps/guf/crop.png",
+                        "@rel": "icon",
+                        "@title": "icon",
+                        "@type": "image/png"
+                    }
+                ],
+                "offering": {
+                    "operation": [
+                        {
+                            "@code": "GetCapabilities",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "DescribeProcess",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=DescribeProcess&version=1.0&identifier=4201e8b5-3ee8-4ae3-a896-6c84e433c434",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "Execute",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=Execute&version=1.0&identifier=4201e8b5-3ee8-4ae3-a896-6c84e433c434",
+                            "@method": "POST"
+                        }
+                    ]
+                },
+                "publisher": "brockman",
+                "title": "Large-scale subsetting",
+                "updated": "2016-04-26T13:08:59Z",
+                "content": "Cropping of GUF datasets to a region of interest on the processing cluster"
+            },
+            "type": "Feature"
+        },
+        {
+            "id": "http://127.0.0.1:8084/t2api/service/wps/search?id=fd20bc19-1ce5-446a-bfd5-8cef54350f9f",
+            "properties": {
+                "categories": [
+                    {
+                        "@label": null,
+                        "@scheme": null,
+                        "@term": "WpsOffering"
+                    }
+                ],
+                "identifier": "fd20bc19-1ce5-446a-bfd5-8cef54350f9f",
+                "links": [
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                        "@rel": "alternate"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/service/wps/search?id=fd20bc19-1ce5-446a-bfd5-8cef54350f9f",
+                        "@rel": "self",
+                        "@title": "Urban TEP subsetting",
+                        "@type": "application/atom+xml"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/service/wps/description",
+                        "@rel": "search",
+                        "@title": "OpenSearch Description link",
+                        "@type": "application/opensearchdescription+xml"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/geobrowser/thematicApps/guf/crop.png",
+                        "@rel": "icon",
+                        "@title": "icon",
+                        "@type": "image/png"
+                    }
+                ],
+                "offering": {
+                    "operation": [
+                        {
+                            "@code": "GetCapabilities",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "DescribeProcess",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=DescribeProcess&version=1.0&identifier=fd20bc19-1ce5-446a-bfd5-8cef54350f9f",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "Execute",
+                            "@href": "http://127.0.0.1:8084/t2api/wps/WebProcessingService?service=WPS&request=Execute&version=1.0&identifier=fd20bc19-1ce5-446a-bfd5-8cef54350f9f",
+                            "@method": "POST"
+                        }
+                    ]
+                },
+                "publisher": "brockman",
+                "title": "timescan sentinel-2",
+                "updated": "2016-04-26T13:08:59Z",
+                "content": "timescan Sentinel 2"
+            },
+            "type": "Feature"
+        },
+        {
+            "id": "http://127.0.0.1:8084/t2api/service/wps/search?id=e4c46987-5d8f-4218-9356-9cf9a34e9e27",
+            "properties": {
+                "categories": [
+                    {
+                        "@label": null,
+                        "@scheme": null,
+                        "@term": "WpsOffering"
+                    }
+                ],
+                "identifier": "e4c46987-5d8f-4218-9356-9cf9a34e9e27",
+                "links": [
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/utep/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                        "@rel": "alternate"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/service/wps/search?id=e4c46987-5d8f-4218-9356-9cf9a34e9e27",
+                        "@rel": "self",
+                        "@title": "Analyse with PUMA",
+                        "@type": "application/atom+xml"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/t2api/service/wps/description",
+                        "@rel": "search",
+                        "@title": "OpenSearch Description link",
+                        "@type": "application/opensearchdescription+xml"
+                    },
+                    {
+                        "@href": "http://127.0.0.1:8084/geobrowser/thematicApps/guf/puma.png",
+                        "@rel": "icon",
+                        "@title": "icon",
+                        "@type": "image/png"
+                    }
+                ],
+                "offering": {
+                    "operation": [
+                        {
+                            "@code": "GetCapabilities",
+                            "@href": "http://127.0.0.1:8084/t2api/utep/wps/WebProcessingService?service=WPS&request=GetCapabilities",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "DescribeProcess",
+                            "@href": "http://127.0.0.1:8084/t2api/utep/wps/WebProcessingService?service=WPS&request=DescribeProcess&version=1.0&identifier=e4c46987-5d8f-4218-9356-9cf9a34e9e27",
+                            "@method": "GET"
+                        },
+                        {
+                            "@code": "Execute",
+                            "@href": "http://127.0.0.1:8084/t2api/utep/wps/WebProcessingService?service=WPS&request=Execute&version=1.0&identifier=e4c46987-5d8f-4218-9356-9cf9a34e9e27",
+                            "@method": "POST"
+                        }
+                    ]
+                },
+                "publisher": "GISAT",
+                "title": "Analyze in PUMA",
+                "updated": "2016-04-26T13:08:59Z",
+                "content": "Use of GUF subsetting results in analyses in PUMA"
+            },
+            "type": "Feature"
+        }
+    ],
+    "properties": {
+        "Query": {
+            "@os:searchTerms": "TEP"
+        },
+        "identifier": "service/wps",
+        "itemsPerPage": "20",
+        "links": [
+            {
+                "@href": "http://127.0.0.1:8084/t2api/service/wps?format=json&q=TEP",
+                "@rel": "alternate"
+            },
+            {
+                "@href": "http://127.0.0.1:8084/t2api/service/wps/description",
+                "@rel": "search",
+                "@title": "OpenSearch Description link",
+                "@type": "application/opensearchdescription+xml"
+            }
+        ],
+        "startIndex": "1",
+        "title": "Discovery feed for service/wps",
+        "totalResults": "5",
+        "updated": "2016-04-26T15:08:59Z"
+    },
+    "type": "FeatureCollection"
+}

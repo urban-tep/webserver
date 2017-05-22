@@ -1,0 +1,88 @@
+
+.leaflet-popup-content {
+	width: 400px !important;
+    max-height: 300px;
+	overflow: visible;
+}
+
+.featurePopupContent {
+	max-height: inherit;
+	height: 100%;
+    width: 100%;
+}
+
+.featureDescriptor {
+	font-size: 12px;
+}
+
+.featureDescriptor table {
+	font-size: 12px;
+}
+
+/* bootstrap color reset */
+.featureDescriptor a.btn-info {
+	color: #ffffff;
+}
+
+/* popups */
+.featureDescriptor h1 {
+	color: rgb(147, 85, 36);
+	border-bottom: 1px solid gray;
+	margin-bottom: 12px;
+	line-height: 20px;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+.featureDescriptor .filterButtons .tooltip {
+	position: absolute;
+	z-index: 100000000001;
+}
+
+/* table (from feature.properties.summary ) */
+
+.featureDescriptor > .summary > table tr > td:nth-child(1){
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: right;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.featureDescriptor > .summary > table tr > td:nth-child(2){
+	white-space: nowrap;
+    /* width: 80%; */
+    /* word-break: break-all; */
+}
+
+.featureDescriptor .filters { margin-bottom: 10px; }
+
+.leaflet-popup-content .jspHorizontalBar, .leaflet-popup-content .jspVerticalBar{
+	opacity: 0;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.leaflet-popup-content:hover .jspHorizontalBar, .leaflet-popup-content:hover .jspVerticalBar {
+	opacity: 1;
+}
+
+.featureDescriptor img {
+    max-width: 100% !important; /* overwrite leaflet */
+}
+
+.featureDescriptor  > .summary > table tr > td:nth-child(1) img {
+    width: 150px;
+}
+
+.featureDescriptor > .summary > table tr:nth-child(2n) {
+    background-color: #eee;
+}
+
+.featureDescriptor .filters .dropdown-menu > li>a {
+	font-size: 12px;
+	line-height: 12px;
+}
