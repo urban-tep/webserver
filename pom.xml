@@ -4,7 +4,7 @@
 
 	<groupId>com.terradue.tepurban</groupId>
 	<artifactId>webserver-tepurban</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.6</version>
 	<packaging>rpm</packaging>
 
 	<name>Web Server for Tep Urban</name>
