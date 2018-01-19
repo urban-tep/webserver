@@ -1,0 +1,20 @@
+
+.quickstart p {
+	margin-bottom: 20px;
+}
+.quickstart ol {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.quickstart ol li {
+	margin-bottom: 20px;
+}
+
+.quickstart h3 {
+	margin: 0px;
+}
+
+.quickstart .pageTitle {
+	background-image: url(../img/quickstart.png);
+	background-position: 0px 21%;
+}

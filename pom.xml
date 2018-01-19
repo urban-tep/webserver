@@ -4,7 +4,7 @@
 
 	<groupId>com.terradue.tepurban</groupId>
 	<artifactId>webserver-tepurban</artifactId>
-	<version>1.3</version>
+	<version>1.4</version>
 	<packaging>rpm</packaging>
 
 	<name>Web Server for Tep Urban</name>
@@ -42,7 +42,7 @@
 							<goal>exec</goal>
 						</goals>
 						<configuration>
-							<executable>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/main/scripts/nuget-install.sh</executable>
+							<executable>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/main/scripts/nuget-install.sh</executable>
 						</configuration>
 					</execution>
 					<execution>
@@ -69,15 +69,15 @@
 							<goal>single</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/target/staged</outputDirectory>
+							<outputDirectory>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/target/staged</outputDirectory>
 							<attach>false</attach>
 							<appendAssemblyId>false</appendAssemblyId>
 							<finalName>/</finalName>
 							<descriptors>
-								<descriptor>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/assembly/rpm.xml</descriptor>
+								<descriptor>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/assembly/rpm.xml</descriptor>
 							</descriptors>
 							<filters>
-								<filter>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/main/filters/production.properties</filter>
+								<filter>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/main/filters/production.properties</filter>
 							</filters>
 						</configuration>
 					</execution>
@@ -102,7 +102,7 @@
 							<directory>/usr/local/tepurban/webserver</directory>
 							<sources>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/target/staged</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/target/staged</location>
 								</source>
 							</sources>
 						</mapping>
@@ -111,7 +111,7 @@
 							<directory>/usr/local/tepurban/webserver/sites/tepurban/etc</directory>
 							<sources>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/target/staged/sites/tepurban/etc</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/target/staged/sites/tepurban/etc</location>
 								</source>
 							</sources>
 						</mapping>
@@ -119,7 +119,7 @@
 							<directory>/usr/local/tepurban/webserver/sites/tepurban/root</directory>
 							<sources>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/submodules/root</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/submodules/root</location>
 									<includes>
 										<include>**</include>
 									</includes>
@@ -135,7 +135,7 @@
 							<groupname>apache</groupname>
 							<sources>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/main/web-resources/config/tepurban-webserver-httpd.conf</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/main/web-resources/config/tepurban-webserver-httpd.conf</location>
 								</source>
 							</sources>
 						</mapping>
@@ -154,7 +154,7 @@
 							<groupname>root</groupname>
 							<sources>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/main/scripts/tepurban-agent</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/main/scripts/tepurban-agent</location>
 								</source>
 							</sources>
 						</mapping>
@@ -163,10 +163,10 @@
 							<configuration>noreplace</configuration>
 							<sources>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/main/web-resources/config/web.config</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/main/web-resources/config/web.config</location>
 								</source>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/main/web-resources/config/log4net.config</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/main/web-resources/config/log4net.config</location>
 								</source>
 							</sources>
 						</mapping>
@@ -179,7 +179,7 @@
 							<groupname>root</groupname>
 							<sources>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/main/web-resources/etc/shibboleth/shibboleth2-tepurban.xml</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/main/web-resources/etc/shibboleth/shibboleth2-tepurban.xml</location>
 								</source>
 							</sources>
 						</mapping>
@@ -192,7 +192,7 @@
 							<groupname>root</groupname>
 							<sources>
 								<source>
-									<location>/var/lib/jenkins/jobs/ESA.TepUrban/workspace/src/main/web-resources/etc/shibboleth/umsso-ca.pem</location>
+									<location>/var/lib/jenkins/jobs/urban-tep/jobs/ESA.TepUrban/workspace/src/main/web-resources/etc/shibboleth/umsso-ca.pem</location>
 								</source>
 							</sources>
 						</mapping>
