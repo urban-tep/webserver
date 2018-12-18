@@ -1,0 +1,218 @@
+/**************/
+/* Activities */
+/**************/
+#publications p {
+	margin-bottom: 20px;
+}
+#publications ol {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#publications ol li {
+	margin-bottom: 20px;
+}
+#publications h3 {
+	margin: 0px;
+}
+#publications .pageTitle {
+	background-image: url(../img/publications.png);
+	background-position: 0px 30%;
+}
+
+/**************/
+/* Background */
+/**************/
+#background p {
+	margin-bottom: 20px;
+}
+#background ol {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#background ol li {
+	margin-bottom: 20px;
+}
+#background h3 {
+	margin: 0px;
+}
+#background .pageTitle {
+	background-image: url(../img/Background.png);
+	background-position: 0px 2%;
+}
+
+/************/
+/* Partners */
+/************/
+#partners h3 {
+	margin: 0px;
+}
+#partners .pageTitle {
+	background-image: url(../img/Community.jpg);
+	background-position: 0px 70%;
+}
+#partners .partners-logo {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 6px;
+	height: 112px;
+	margin: auto;
+	display: flex;
+	display: -webkit-flex;
+}
+#partners .partners-logo>img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+#partners .partners-logo:hover{
+	-webkit-box-shadow: 0px 0px 6px gray;
+	-moz-box-shadow: 0px 0px 6px gray;
+	box-shadow: 0px 0px 6px gray;
+}
+/* responsive */
+/* Landscape phone to portrait tablet */
+@media (max-width: 979px) {
+	#partners .partners-logo {
+		border: none;
+		border-radius: 6px;
+		padding: 6px;
+		max-width: 200px;
+		display: block;
+		height: auto;
+	}
+	#partners .partners-logo:hover{
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+	}
+}
+
+/*******************/
+/* Data & Services */
+/*******************/
+#pageDataServices .pageTitle {
+	background-image: url(../img/DataServices.png);
+	background-position: 0px 2%;
+}
+#pageDataServices p {
+	margin-bottom: 20px;
+}
+#pageDataServices ol {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#pageDataServices ol li {
+	margin-bottom: 20px;
+}
+#pageDataServices h3 {
+	margin: 0px;
+}
+#pageDataServices .dataServicesFigures { text-align: center; }
+#pageDataServices .dataServicesFigures > div {
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+#pageDataServices .dataServicesFigures .image {
+    border: 1px solid #ccc;
+    display: block;
+    height: 130px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    border-radius: 6px;
+}
+#pageDataServices .dataServicesFigures .image.image1 {
+	background-image: url(../img/data/1_GUF_TOKYO.png);
+}
+#pageDataServices .dataServicesFigures .image.image2 {
+	background-image: url(../img/data/4_RegionalImperviousnessGreeneryIndex_MILAN.png);
+}
+#pageDataServices .dataServicesFigures .image.image3 {
+	background-image: url(../img/data/GUF-NetS.png);
+}
+#pageDataServices .dataServicesFigures .image.image4 {
+    background-image: url(../img/data/GUFevo30m.png);
+}
+#pageDataServices .dataServicesFigures .image.image5 {
+    background-image: url(../img/data/timescanlandsat2015.png);
+}
+#pageDataServices .dataServicesFigures .image.image6 {
+    background-image: url(../img/data/timescansentinel22015.png);
+}
+#pageDataServices .dataServicesFigures .image.image7 {
+    background-image: url(../img/data/timescansentinel12015.png);
+}
+#pageDataServices .dataServicesFigures .image.image8 {
+    background-image: url(../img/data/lulcdev.png);
+}
+#pageDataServices .dataServicesFigures .image.image9 {
+    background-image: url(../img/data/utepvisutoolbox.png);
+}
+
+/**************/
+/* Quickstart */
+/**************/
+#quickstart p {
+	margin-bottom: 20px;
+}
+#quickstart ol {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#quickstart ol li {
+	margin-bottom: 20px;
+}
+#quickstart h3 {
+	margin: 0px;
+}
+#quickstart .pageTitle {
+	background-image: url(../img/quickstart.png);
+	background-position: 0px 21%;
+}
+
+/*************/
+/* Tutorials */
+/*************/
+#tutorials p {
+	margin-bottom: 20px;
+}
+#tutorials ol {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#tutorials ol li {
+	margin-bottom: 20px;
+}
+#tutorials h3 {
+	margin: 0px;
+}
+#tutorials .pageTitle {
+	background-image: url(../img/tutos.png);
+	background-position: 0px 2%;
+}
+
+/*****************/
+/* Use scenarios */
+/*****************/
+
+#usescenarios p {
+	margin-bottom: 20px;
+}
+#usescenarios ol {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#usescenarios ol li {
+	margin-bottom: 20px;
+}
+
+#usescenarios h3 {
+	margin: 0px;
+}
+
+#usescenarios .pageTitle {
+	background-image: url(../img/UseScenarios.png);
+	background-position: 0px 21%;
+}
