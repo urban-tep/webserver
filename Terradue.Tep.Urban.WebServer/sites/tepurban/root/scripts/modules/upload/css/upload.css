@@ -1,0 +1,47 @@
+#upload .dropzone {
+    border: dashed 1px;
+    max-width: 466px;
+    min-width: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#upload .processorTitle {
+	font-weight: bold;	
+}
+
+#upload .processorVersion {
+    color: #888;
+}
+
+#upload .processorFileTitle {
+
+}
+
+#upload .processorFileSize {
+    color: #888;
+}
+
+#upload .processorFile > a {
+	display: none;
+}
+
+#upload .processorFile:hover > a {
+	display: inline;
+}
+
+#upload .dz-upload { 
+    display: block; 
+    background-color: #93313A; 
+    height: 10px;
+    width: 0%;
+}
+
+#upload label {
+    font-weight: bold;
+}
+#upload .pageTitle {
+    background-image: url(../../../../styles/img/offerContent.png);
+    background-position: 0px 40%;
+}
